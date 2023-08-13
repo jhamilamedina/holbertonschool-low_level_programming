@@ -1,0 +1,3 @@
+NAME=school
+all: $(none)
+	$(none) -o $(NAME)
