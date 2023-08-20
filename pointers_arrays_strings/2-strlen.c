@@ -3,8 +3,8 @@
 
 /**
  * _strlen - tha return the length of the string.
- * @s: pinter name
- * Return: length of a string
+ * @s: Value a Read len
+ * Return: the len of string
  */
 
 int _strlen(char *s)
