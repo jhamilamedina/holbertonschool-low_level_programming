@@ -9,7 +9,6 @@
  */
 
 int main(int argc, char *argv[])
-	i
 {
 (void)argv;
 printf("%d\n", argc - 1);
