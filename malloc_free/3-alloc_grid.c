@@ -1,13 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 
 /**
  * alloc_grid - function tha returns a pointer a array
  * @width: the nro of columns in the array
  * @height: the nro of rows in the array
- * Return: a pointers to an array
+ * Return: a pointers to a 2 dimensional array of integer
  */
 
 
@@ -19,7 +17,7 @@ int **a;
 if (width <= 0 || height <= 0)
 return (NULL);
 
-a = malloc(sizeof(int) * width);
+a = malloc(sizeof(int *) * height);
 
 if (a == NULL)
 {
@@ -50,4 +48,3 @@ a[k][l] = 0;
 }
 return (a);
 }
-
