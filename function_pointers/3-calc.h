@@ -1,5 +1,11 @@
-#ifndef __cal_h__
-#define __cal_h__
+#ifndef _3_CAL_H_
+#define _3_CAL_H_
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stddef.h>
+
 
 /**
  * struct op - Struct op
@@ -7,7 +13,7 @@
  * @f:the function associated
  */
 
-typedef struct op
+typedef struct op_t
 {
 	char *op;
 	int (*f)(int a, int b);
