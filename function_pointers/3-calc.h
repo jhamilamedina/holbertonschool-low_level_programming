@@ -8,7 +8,7 @@
 
 
 /**
- * struct op - Struct op
+ * struct op_t - Struct op_t
  * @op: the operator
  * @f:the function associated
  */
